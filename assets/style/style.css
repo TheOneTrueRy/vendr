@@ -6,6 +6,8 @@ body{
 
 /* SECTION Classes */
 
-
+.nomb{
+  margin-bottom: 0;
+}
 
 /* SECTION IDs */

@@ -20,29 +20,30 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
-      <a class="navbar-brand ms-3" href="#">
-        <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
-          loading="lazy">
-        <span class="ms-2">vendr</span>
-      </a>
+    <nav class="navbar bg-black text-light no-select">
+        <span class="ms-4 fs-2">Vendr</span>
     </nav>
   </header>
   <main>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="shop">
         <div class="col-12">
-          <div id="app"></div>
         </div>
       </div>
     </div>
   </main>
-  <footer class="bg-dark text-light">
-    <div class="text-center no-select">
-      <p><small>Made with 💖 by CodeWorks</small></p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4 offset-8 g-0">
+        <footer class="bg-black text-light">
+          <div class="text-center no-select">
+            <p id="monies" class="nomb py-3 fs-5">Total Monies: $0.25</p>
+          </div>
+    </footer>
+      </div>
     </div>
-  </footer>
-
+  </div>
+    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
