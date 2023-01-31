@@ -10,4 +10,12 @@ body{
   margin-bottom: 0;
 }
 
+.myCard{
+  border-radius: 0 0 5px 5px;
+}
+
+.myCardImg{
+  border-radius: 5px 5px 0 0;
+}
+
 /* SECTION IDs */
