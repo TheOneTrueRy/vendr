@@ -4,6 +4,10 @@ body{
   font-family: 'Roboto Mono', monospace;
 }
 
+img{
+  height: 80%;
+}
+
 /* SECTION Classes */
 
 .nomb{
@@ -16,6 +20,10 @@ body{
 
 .myCardImg{
   border-radius: 5px 5px 0 0;
+}
+
+.card{
+  height: 100%;
 }
 
 /* SECTION IDs */

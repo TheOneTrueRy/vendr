@@ -25,14 +25,14 @@
           <div class="col-2 d-flex align-items-center">
             <span class="ms-4 fs-2">Vendr</span>
           </div>
-          <div class="col-3 offset-7 d-flex align-items-center">
-            <button class="bg-black text-light fs-4" onclick="app.vendingController.addMoney()">ADD $0.25</button>
+          <div class="col-4 offset-6 d-flex align-items-center">
+            <button class="bg-black text-light fs-4" onclick="app.vendingController.addMoney()">BUY 500 V-Bucks</button>
           </div>
         </div>
       </div>
   </header>
   <main>
-    <div class="container-fluid">
+    <div class="container-fluid px-4">
       <div class="row" id="shop">
         <!-- STUB Shop Item Template! -->
         <!-- <div class="col-4 mt-3">
@@ -54,14 +54,14 @@
       </div>
     </div>
   </main>
-  <div class="container-fluid">
+  <div class="container-fluid sticky-bottom">
     <div class="row">
       <div class="col-4 offset-8 g-0">
         <footer class="bg-black text-light">
           <div class="text-center no-select">
-            <p id="monies" class="nomb py-3 fs-5">Total Monies: $0.25</p>
+            <p class="nomb py-3 fs-5">Total V-Bucks: <span id="total"></span></p>
           </div>
-    </footer>
+        </footer>
       </div>
     </div>
   </div>
